@@ -9,7 +9,7 @@
 	],
 	"contact": {
 		"homepage": "https://modrinth.com/user/swip",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/cyber-suicide/cool-mobs-1.21"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/cool-mobs/icon.png",
