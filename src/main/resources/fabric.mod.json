@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "cool-mobs",
+	"version": "${version}",
+	"name": "Cool Mobs",
+	"description": "Adding some cool new mobs",
+	"authors": [
+		"Swip"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/user/swip",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/cool-mobs/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"swip.coolmobs.CoolMobs"
+		],
+		"fabric-datagen": [
+			"swip.coolmobs.CoolMobsDataGenerator"
+		],
+		"client": [
+			"swip.coolmobs.CoolMobsClient"
+		]
+	},
+	"mixins": [
+		"cool-mobs.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
